@@ -1,13 +1,16 @@
-# Sample Hardhat Project
+# Bulk Token Sender Smart Contract
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates a basic use case. It comes with a contract that is used to send native coin or tokens to multiple users in variable amounts at a time.
 
-Try running some of the following tasks:
+## Install Dependencies
+If npx is not installed yet:
+`npm install -g npx`
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Install packages:
+`npm i`
+
+## Compile Contracts
+`npx hardhat compile`
+
+## Run Tests
+`npx hardhat test`
